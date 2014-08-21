@@ -1,0 +1,26 @@
+{
+    "name": "adrotec/odataphpprod",
+    "type": "library",
+    "description": "OData Producer for PHP",
+    "keywords": [ "rest", "odata" ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Safraz Razik",
+            "email": "mr.safraz@gmail.com"
+        },
+        {
+            "name": "Microsoft Open Technologies, Inc.",
+            "email": "msopentech@microsoft.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "ODataProducer": "src/"
+        }
+    }
+}
